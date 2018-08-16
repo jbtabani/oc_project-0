@@ -32,8 +32,8 @@ public class ProductController {
 	
 	private double calculateTotalInventoryAmount() {
 		// TODO Auto-generated method stub
-		// return 123456.78;
-		
+
+		//Overall sum of the stock in financial value
 		double totalInventoryAmount = 0.0;
 		for (Product p : productService.products()) {
 			totalInventoryAmount+=p.getInventoryPrice();
