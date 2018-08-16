@@ -71,9 +71,14 @@ public class Product {
 	public void setPrice(double price) {
 		//If the price entered is less than or equal to 0, the value assigned to the price is 0
 		// OR if the price is strictly greater than 1000 the value assigned to the price is 0.
-		if (price <= 0 || price > 1000)
+		if (price <= 0)
 		{
 			this.price = 0;
+		}
+		//if the price is strictly greater than 1000 the value of 1000 is assigned to the price
+		else if (price > 1000)
+		{
+			this.price = 1000;
 		}
 		else
 		{
