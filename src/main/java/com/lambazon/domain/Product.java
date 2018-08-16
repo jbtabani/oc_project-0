@@ -52,7 +52,16 @@ public class Product {
 	}
 
 	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+		//Test if the quantity entered is less than
+		// or equal to 0 the value assigned to the stock is 0.
+		if (quantity <= 0 )
+		{
+			this.quantity = 0;
+		}
+		else
+		{
+			this.quantity = quantity;
+		}
 	}
 
 	public double getPrice() {
