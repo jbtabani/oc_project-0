@@ -23,9 +23,9 @@ public class ProductRepository {
 		products.put(++id, new Product(id, 40, 32.50, "VTech CS6114 DECT 6.0", "Cordless Phone"));
 		products.put(++id, new Product(id, 50, 895.00, "NOKIA OEM BL-5J", "Cell Phone "));
 		//Addition additional product SAMSUNG S8 64GO GRIS
-		products.put(++id, new Product(id, 20, 680.00, "SAMSUNG S8 64GO GRIS", "Cell Phone "));
+		products.put(++id, new Product(id, 20, 680.00, "SAMSUNG S8 64GO GRIS", "Cell Phone"));
 		//Addition additional product USB 3.0 4GO
-		products.put(++id, new Product(id, 500, 2500.00, "USB 3.0 4GO", "Hard Disk Drive "));
+		products.put(++id, new Product(id, 500, 45.00, "USB 3.0 4GO", "Hard Disk Drive"));
 	}
 	
 	public List<Product> products() {
